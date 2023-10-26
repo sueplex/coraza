@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/corazawaf/coraza/v3/internal/variables"
+	"github.com/corazawaf/coraza/v3/public-internal/variables"
 	"github.com/corazawaf/coraza/v3/types"
 )
 

@@ -11,9 +11,9 @@ import (
 
 	"github.com/corazawaf/coraza/v3/debuglog"
 	"github.com/corazawaf/coraza/v3/experimental/plugins/plugintypes"
-	"github.com/corazawaf/coraza/v3/internal/collections"
-	"github.com/corazawaf/coraza/v3/internal/corazawaf"
-	utils "github.com/corazawaf/coraza/v3/internal/strings"
+	"github.com/corazawaf/coraza/v3/public-internal/collections"
+	"github.com/corazawaf/coraza/v3/public-internal/corazawaf"
+	utils "github.com/corazawaf/coraza/v3/public-internal/strings"
 	"github.com/corazawaf/coraza/v3/types"
 	"github.com/corazawaf/coraza/v3/types/variables"
 )

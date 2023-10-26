@@ -8,7 +8,7 @@ import (
 
 	"github.com/corazawaf/coraza/v3/debuglog"
 	"github.com/corazawaf/coraza/v3/experimental/plugins/plugintypes"
-	"github.com/corazawaf/coraza/v3/internal/corazawaf"
+	"github.com/corazawaf/coraza/v3/public-internal/corazawaf"
 	"github.com/corazawaf/coraza/v3/types"
 )
 

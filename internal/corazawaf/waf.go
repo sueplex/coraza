@@ -16,10 +16,10 @@ import (
 
 	"github.com/corazawaf/coraza/v3/debuglog"
 	"github.com/corazawaf/coraza/v3/experimental/plugins/plugintypes"
-	"github.com/corazawaf/coraza/v3/internal/auditlog"
-	"github.com/corazawaf/coraza/v3/internal/environment"
-	stringutils "github.com/corazawaf/coraza/v3/internal/strings"
-	"github.com/corazawaf/coraza/v3/internal/sync"
+	"github.com/corazawaf/coraza/v3/public-internal/auditlog"
+	"github.com/corazawaf/coraza/v3/public-internal/environment"
+	stringutils "github.com/corazawaf/coraza/v3/public-internal/strings"
+	"github.com/corazawaf/coraza/v3/public-internal/sync"
 	"github.com/corazawaf/coraza/v3/types"
 )
 

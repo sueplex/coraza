@@ -5,7 +5,7 @@ package plugins
 
 import (
 	"github.com/corazawaf/coraza/v3/experimental/plugins/plugintypes"
-	"github.com/corazawaf/coraza/v3/internal/transformations"
+	"github.com/corazawaf/coraza/v3/public-internal/transformations"
 )
 
 // RegisterTransformation registers a transformation by name

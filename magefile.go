@@ -146,14 +146,14 @@ func Fuzz() error {
 		tests []string
 	}{
 		{
-			pkg: "./internal/operators",
+			pkg: "./public-internal/operators",
 			tests: []string{
 				"FuzzSQLi",
 				"FuzzXSS",
 			},
 		},
 		{
-			pkg: "./internal/transformations",
+			pkg: "./public-internal/transformations",
 			tests: []string{
 				"FuzzB64Decode",
 				"FuzzCMDLine",

@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/corazawaf/coraza/v3/internal/environment"
+	"github.com/corazawaf/coraza/v3/public-internal/environment"
 	"github.com/corazawaf/coraza/v3/types"
 )
 

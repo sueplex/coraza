@@ -9,10 +9,10 @@ import (
 	"strings"
 
 	"github.com/corazawaf/coraza/v3/experimental/plugins/plugintypes"
-	actionsmod "github.com/corazawaf/coraza/v3/internal/actions"
-	"github.com/corazawaf/coraza/v3/internal/corazawaf"
-	"github.com/corazawaf/coraza/v3/internal/operators"
-	utils "github.com/corazawaf/coraza/v3/internal/strings"
+	actionsmod "github.com/corazawaf/coraza/v3/public-internal/actions"
+	"github.com/corazawaf/coraza/v3/public-internal/corazawaf"
+	"github.com/corazawaf/coraza/v3/public-internal/operators"
+	utils "github.com/corazawaf/coraza/v3/public-internal/strings"
 	"github.com/corazawaf/coraza/v3/types"
 	"github.com/corazawaf/coraza/v3/types/variables"
 )

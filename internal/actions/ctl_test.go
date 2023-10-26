@@ -9,8 +9,8 @@ import (
 	"testing"
 
 	"github.com/corazawaf/coraza/v3/debuglog"
-	"github.com/corazawaf/coraza/v3/internal/corazarules"
-	"github.com/corazawaf/coraza/v3/internal/corazawaf"
+	"github.com/corazawaf/coraza/v3/public-internal/corazarules"
+	"github.com/corazawaf/coraza/v3/public-internal/corazawaf"
 	"github.com/corazawaf/coraza/v3/types"
 	"github.com/corazawaf/coraza/v3/types/variables"
 )

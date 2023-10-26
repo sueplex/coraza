@@ -9,7 +9,7 @@ import (
 	"strings"
 
 	"github.com/corazawaf/coraza/v3/collection"
-	"github.com/corazawaf/coraza/v3/internal/corazarules"
+	"github.com/corazawaf/coraza/v3/public-internal/corazarules"
 	"github.com/corazawaf/coraza/v3/types"
 	"github.com/corazawaf/coraza/v3/types/variables"
 )

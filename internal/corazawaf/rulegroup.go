@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/corazawaf/coraza/v3/internal/corazatypes"
-	"github.com/corazawaf/coraza/v3/internal/strings"
+	"github.com/corazawaf/coraza/v3/public-internal/corazatypes"
+	"github.com/corazawaf/coraza/v3/public-internal/strings"
 	"github.com/corazawaf/coraza/v3/types"
 	"github.com/corazawaf/coraza/v3/types/variables"
 )

@@ -6,8 +6,8 @@ package coraza
 import (
 	"fmt"
 
-	"github.com/corazawaf/coraza/v3/internal/corazawaf"
-	"github.com/corazawaf/coraza/v3/internal/seclang"
+	"github.com/corazawaf/coraza/v3/public-internal/corazawaf"
+	"github.com/corazawaf/coraza/v3/public-internal/seclang"
 	"github.com/corazawaf/coraza/v3/types"
 )
 

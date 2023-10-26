@@ -8,7 +8,7 @@ import (
 
 	"github.com/corazawaf/coraza/v3/experimental/plugins"
 	"github.com/corazawaf/coraza/v3/experimental/plugins/plugintypes"
-	"github.com/corazawaf/coraza/v3/internal/operators"
+	"github.com/corazawaf/coraza/v3/public-internal/operators"
 )
 
 func TestGetOperator(t *testing.T) {

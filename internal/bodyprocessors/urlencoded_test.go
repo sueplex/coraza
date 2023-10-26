@@ -9,8 +9,8 @@ import (
 	"testing"
 
 	"github.com/corazawaf/coraza/v3/experimental/plugins/plugintypes"
-	"github.com/corazawaf/coraza/v3/internal/bodyprocessors"
-	"github.com/corazawaf/coraza/v3/internal/corazawaf"
+	"github.com/corazawaf/coraza/v3/public-internal/bodyprocessors"
+	"github.com/corazawaf/coraza/v3/public-internal/corazawaf"
 )
 
 func TestURLEncode(t *testing.T) {
