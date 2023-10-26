@@ -13,9 +13,9 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/corazawaf/coraza/v3"
-	txhttp "github.com/corazawaf/coraza/v3/http"
-	e2e "github.com/corazawaf/coraza/v3/http/e2e/pkg"
+	"github.com/sueplex/coraza/v3"
+	txhttp "github.com/sueplex/coraza/v3/http"
+	e2e "github.com/sueplex/coraza/v3/http/e2e/pkg"
 	"github.com/mccutchen/go-httpbin/v2/httpbin"
 )
 

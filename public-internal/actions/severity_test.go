@@ -6,8 +6,8 @@ package actions
 import (
 	"testing"
 
-	"github.com/corazawaf/coraza/v3/public-internal/corazawaf"
-	"github.com/corazawaf/coraza/v3/types"
+	"github.com/sueplex/coraza/v3/public-internal/corazawaf"
+	"github.com/sueplex/coraza/v3/types"
 )
 
 func TestSeverity(t *testing.T) {

@@ -4,8 +4,8 @@
 package plugins
 
 import (
-	"github.com/corazawaf/coraza/v3/experimental/plugins/plugintypes"
-	"github.com/corazawaf/coraza/v3/public-internal/auditlog"
+	"github.com/sueplex/coraza/v3/experimental/plugins/plugintypes"
+	"github.com/sueplex/coraza/v3/public-internal/auditlog"
 )
 
 // RegisterAuditLogWriter registers a new audit log writer.

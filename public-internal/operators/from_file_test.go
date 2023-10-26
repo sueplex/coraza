@@ -10,7 +10,7 @@ import (
 	"testing"
 	"testing/fstest"
 
-	"github.com/corazawaf/coraza/v3/public-internal/io"
+	"github.com/sueplex/coraza/v3/public-internal/io"
 )
 
 const fileContent = "abc123"

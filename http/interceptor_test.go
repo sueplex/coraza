@@ -12,7 +12,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/corazawaf/coraza/v3"
+	"github.com/sueplex/coraza/v3"
 )
 
 func TestWriteHeader(t *testing.T) {

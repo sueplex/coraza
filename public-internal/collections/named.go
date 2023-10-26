@@ -8,10 +8,10 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/corazawaf/coraza/v3/collection"
-	"github.com/corazawaf/coraza/v3/public-internal/corazarules"
-	"github.com/corazawaf/coraza/v3/types"
-	"github.com/corazawaf/coraza/v3/types/variables"
+	"github.com/sueplex/coraza/v3/collection"
+	"github.com/sueplex/coraza/v3/public-internal/corazarules"
+	"github.com/sueplex/coraza/v3/types"
+	"github.com/sueplex/coraza/v3/types/variables"
 )
 
 // NamedCollection is a Collection that also keeps track of names.

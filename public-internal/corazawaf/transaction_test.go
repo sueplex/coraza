@@ -13,15 +13,15 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/corazawaf/coraza/v3/collection"
-	"github.com/corazawaf/coraza/v3/debuglog"
-	"github.com/corazawaf/coraza/v3/experimental/plugins/macro"
-	"github.com/corazawaf/coraza/v3/experimental/plugins/plugintypes"
-	"github.com/corazawaf/coraza/v3/public-internal/collections"
-	"github.com/corazawaf/coraza/v3/public-internal/corazarules"
-	utils "github.com/corazawaf/coraza/v3/public-internal/strings"
-	"github.com/corazawaf/coraza/v3/types"
-	"github.com/corazawaf/coraza/v3/types/variables"
+	"github.com/sueplex/coraza/v3/collection"
+	"github.com/sueplex/coraza/v3/debuglog"
+	"github.com/sueplex/coraza/v3/experimental/plugins/macro"
+	"github.com/sueplex/coraza/v3/experimental/plugins/plugintypes"
+	"github.com/sueplex/coraza/v3/public-internal/collections"
+	"github.com/sueplex/coraza/v3/public-internal/corazarules"
+	utils "github.com/sueplex/coraza/v3/public-internal/strings"
+	"github.com/sueplex/coraza/v3/types"
+	"github.com/sueplex/coraza/v3/types/variables"
 )
 
 func TestTxSettersMultipart(t *testing.T) {

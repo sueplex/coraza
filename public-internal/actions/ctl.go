@@ -9,13 +9,13 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/corazawaf/coraza/v3/debuglog"
-	"github.com/corazawaf/coraza/v3/experimental/plugins/plugintypes"
-	"github.com/corazawaf/coraza/v3/public-internal/collections"
-	"github.com/corazawaf/coraza/v3/public-internal/corazawaf"
-	utils "github.com/corazawaf/coraza/v3/public-internal/strings"
-	"github.com/corazawaf/coraza/v3/types"
-	"github.com/corazawaf/coraza/v3/types/variables"
+	"github.com/sueplex/coraza/v3/debuglog"
+	"github.com/sueplex/coraza/v3/experimental/plugins/plugintypes"
+	"github.com/sueplex/coraza/v3/public-internal/collections"
+	"github.com/sueplex/coraza/v3/public-internal/corazawaf"
+	utils "github.com/sueplex/coraza/v3/public-internal/strings"
+	"github.com/sueplex/coraza/v3/types"
+	"github.com/sueplex/coraza/v3/types/variables"
 )
 
 type ctlFunctionType int

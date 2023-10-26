@@ -4,8 +4,8 @@
 package plugins
 
 import (
-	"github.com/corazawaf/coraza/v3/experimental/plugins/plugintypes"
-	"github.com/corazawaf/coraza/v3/public-internal/actions"
+	"github.com/sueplex/coraza/v3/experimental/plugins/plugintypes"
+	"github.com/sueplex/coraza/v3/public-internal/actions"
 )
 
 // ActionFactory is used to wrap a RuleAction so that it can be registered

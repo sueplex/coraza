@@ -7,7 +7,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/corazawaf/coraza/v3/public-internal/strings"
+	"github.com/sueplex/coraza/v3/public-internal/strings"
 )
 
 func TestXMLAttribures(t *testing.T) {

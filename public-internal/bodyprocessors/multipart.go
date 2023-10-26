@@ -12,9 +12,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/corazawaf/coraza/v3/experimental/plugins/plugintypes"
-	"github.com/corazawaf/coraza/v3/public-internal/collections"
-	"github.com/corazawaf/coraza/v3/public-internal/environment"
+	"github.com/sueplex/coraza/v3/experimental/plugins/plugintypes"
+	"github.com/sueplex/coraza/v3/public-internal/collections"
+	"github.com/sueplex/coraza/v3/public-internal/environment"
 )
 
 type multipartBodyProcessor struct{}

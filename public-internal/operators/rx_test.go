@@ -8,8 +8,8 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/corazawaf/coraza/v3/experimental/plugins/plugintypes"
-	"github.com/corazawaf/coraza/v3/public-internal/corazawaf"
+	"github.com/sueplex/coraza/v3/experimental/plugins/plugintypes"
+	"github.com/sueplex/coraza/v3/public-internal/corazawaf"
 )
 
 func TestRx(t *testing.T) {

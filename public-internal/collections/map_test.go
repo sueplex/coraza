@@ -18,7 +18,7 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/corazawaf/coraza/v3/types/variables"
+	"github.com/sueplex/coraza/v3/types/variables"
 )
 
 func TestMap(t *testing.T) {

@@ -15,9 +15,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/corazawaf/coraza/v3/public-internal/auditlog"
-	"github.com/corazawaf/coraza/v3/public-internal/corazawaf"
-	"github.com/corazawaf/coraza/v3/public-internal/seclang"
+	"github.com/sueplex/coraza/v3/public-internal/auditlog"
+	"github.com/sueplex/coraza/v3/public-internal/corazawaf"
+	"github.com/sueplex/coraza/v3/public-internal/seclang"
 )
 
 func TestAuditLogMessages(t *testing.T) {

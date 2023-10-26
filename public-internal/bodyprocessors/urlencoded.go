@@ -8,9 +8,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/corazawaf/coraza/v3/experimental/plugins/plugintypes"
-	"github.com/corazawaf/coraza/v3/public-internal/collections"
-	"github.com/corazawaf/coraza/v3/public-internal/url"
+	"github.com/sueplex/coraza/v3/experimental/plugins/plugintypes"
+	"github.com/sueplex/coraza/v3/public-internal/collections"
+	"github.com/sueplex/coraza/v3/public-internal/url"
 )
 
 type urlencodedBodyProcessor struct {

@@ -16,18 +16,18 @@ import (
 	"strings"
 	"time"
 
-	"github.com/corazawaf/coraza/v3/collection"
-	"github.com/corazawaf/coraza/v3/debuglog"
-	"github.com/corazawaf/coraza/v3/experimental/plugins/plugintypes"
-	"github.com/corazawaf/coraza/v3/public-internal/auditlog"
-	"github.com/corazawaf/coraza/v3/public-internal/bodyprocessors"
-	"github.com/corazawaf/coraza/v3/public-internal/collections"
-	"github.com/corazawaf/coraza/v3/public-internal/corazarules"
-	"github.com/corazawaf/coraza/v3/public-internal/corazatypes"
-	stringsutil "github.com/corazawaf/coraza/v3/public-internal/strings"
-	urlutil "github.com/corazawaf/coraza/v3/public-internal/url"
-	"github.com/corazawaf/coraza/v3/types"
-	"github.com/corazawaf/coraza/v3/types/variables"
+	"github.com/sueplex/coraza/v3/collection"
+	"github.com/sueplex/coraza/v3/debuglog"
+	"github.com/sueplex/coraza/v3/experimental/plugins/plugintypes"
+	"github.com/sueplex/coraza/v3/public-internal/auditlog"
+	"github.com/sueplex/coraza/v3/public-internal/bodyprocessors"
+	"github.com/sueplex/coraza/v3/public-internal/collections"
+	"github.com/sueplex/coraza/v3/public-internal/corazarules"
+	"github.com/sueplex/coraza/v3/public-internal/corazatypes"
+	stringsutil "github.com/sueplex/coraza/v3/public-internal/strings"
+	urlutil "github.com/sueplex/coraza/v3/public-internal/url"
+	"github.com/sueplex/coraza/v3/types"
+	"github.com/sueplex/coraza/v3/types/variables"
 )
 
 // Transaction is created from a WAF instance to handle web requests and responses,
@@ -1078,7 +1078,7 @@ func (tx *Transaction) WriteResponseBody(b []byte) (*types.Interruption, int, er
 		runProcessResponseBody = false
 	)
 	if tx.responseBodyBuffer.length+writingBytes >= tx.ResponseBodyLimit {
-		// TODO: figure out ErrorData vs DataError: https://github.com/corazawaf/coraza/issues/564
+		// TODO: figure out ErrorData vs DataError: https://github.com/sueplex/coraza/issues/564
 		tx.variables.outboundDataError.Set("1")
 		if tx.WAF.ResponseBodyLimitAction == types.BodyLimitActionReject {
 			// We interrupt this transaction in case ResponseBodyLimitAction is Reject
@@ -1130,7 +1130,7 @@ func (tx *Transaction) ReadResponseBodyFrom(r io.Reader) (*types.Interruption, i
 	if l, ok := r.(ByteLenger); ok {
 		writingBytes = int64(l.Len())
 		if tx.responseBodyBuffer.length+writingBytes >= tx.ResponseBodyLimit {
-			// TODO: figure out ErrorData vs DataError: https://github.com/corazawaf/coraza/issues/564
+			// TODO: figure out ErrorData vs DataError: https://github.com/sueplex/coraza/issues/564
 			tx.variables.outboundDataError.Set("1")
 			if tx.WAF.ResponseBodyLimitAction == types.BodyLimitActionReject {
 				return setAndReturnBodyLimitInterruption(tx)

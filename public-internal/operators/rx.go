@@ -13,7 +13,7 @@ import (
 
 	"rsc.io/binaryregexp"
 
-	"github.com/corazawaf/coraza/v3/experimental/plugins/plugintypes"
+	"github.com/sueplex/coraza/v3/experimental/plugins/plugintypes"
 )
 
 type rx struct {

@@ -6,10 +6,10 @@ package coraza
 import (
 	"io/fs"
 
-	"github.com/corazawaf/coraza/v3/debuglog"
-	"github.com/corazawaf/coraza/v3/experimental/plugins/plugintypes"
-	"github.com/corazawaf/coraza/v3/public-internal/corazawaf"
-	"github.com/corazawaf/coraza/v3/types"
+	"github.com/sueplex/coraza/v3/debuglog"
+	"github.com/sueplex/coraza/v3/experimental/plugins/plugintypes"
+	"github.com/sueplex/coraza/v3/public-internal/corazawaf"
+	"github.com/sueplex/coraza/v3/types"
 )
 
 // WAFConfig controls the behavior of the WAF.

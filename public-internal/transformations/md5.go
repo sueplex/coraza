@@ -7,7 +7,7 @@ import (
 	"crypto/md5"
 	"io"
 
-	"github.com/corazawaf/coraza/v3/public-internal/strings"
+	"github.com/sueplex/coraza/v3/public-internal/strings"
 )
 
 var emptyMD5 string

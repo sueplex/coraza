@@ -4,7 +4,7 @@
 package transformations
 
 import (
-	"github.com/corazawaf/coraza/v3/public-internal/strings"
+	"github.com/sueplex/coraza/v3/public-internal/strings"
 )
 
 func compressWhitespace(value string) (string, bool, error) {

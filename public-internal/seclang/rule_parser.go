@@ -8,13 +8,13 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/corazawaf/coraza/v3/experimental/plugins/plugintypes"
-	actionsmod "github.com/corazawaf/coraza/v3/public-internal/actions"
-	"github.com/corazawaf/coraza/v3/public-internal/corazawaf"
-	"github.com/corazawaf/coraza/v3/public-internal/operators"
-	utils "github.com/corazawaf/coraza/v3/public-internal/strings"
-	"github.com/corazawaf/coraza/v3/types"
-	"github.com/corazawaf/coraza/v3/types/variables"
+	"github.com/sueplex/coraza/v3/experimental/plugins/plugintypes"
+	actionsmod "github.com/sueplex/coraza/v3/public-internal/actions"
+	"github.com/sueplex/coraza/v3/public-internal/corazawaf"
+	"github.com/sueplex/coraza/v3/public-internal/operators"
+	utils "github.com/sueplex/coraza/v3/public-internal/strings"
+	"github.com/sueplex/coraza/v3/types"
+	"github.com/sueplex/coraza/v3/types/variables"
 )
 
 var defaultActionsPhase2 = "phase:2,log,auditlog,pass"

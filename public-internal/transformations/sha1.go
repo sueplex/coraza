@@ -7,7 +7,7 @@ import (
 	"crypto/sha1"
 	"io"
 
-	"github.com/corazawaf/coraza/v3/public-internal/strings"
+	"github.com/sueplex/coraza/v3/public-internal/strings"
 )
 
 var emptySHA1 string
