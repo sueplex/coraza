@@ -107,7 +107,7 @@ func NewWAF(config WAFConfig) (WAF, error) {
 		return nil, err
 	}
 
-	return wafWrapper{waf: waf}, nil
+	return WafWrapper{Waf: waf}, nil
 }
 
 type WafWrapper struct {

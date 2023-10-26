@@ -23,11 +23,11 @@ func TestConfigRulesImmutable(t *testing.T) {
 		t.Fatal(err)
 	}
 
-	if !waf1.(wafWrapper).waf.RequestBodyAccess {
+	if !waf1.(WafWrapper).waf.RequestBodyAccess {
 		t.Errorf("waf1: expected request body access to be enabled")
 	}
 
-	if waf1.(wafWrapper).waf.ResponseBodyAccess {
+	if waf1.(WafWrapper).waf.ResponseBodyAccess {
 		t.Errorf("waf1: expected response body access to be disabled")
 	}
 
@@ -38,11 +38,11 @@ func TestConfigRulesImmutable(t *testing.T) {
 		t.Fatal(err)
 	}
 
-	if waf2.(wafWrapper).waf.RequestBodyAccess {
+	if waf2.(WafWrapper).waf.RequestBodyAccess {
 		t.Errorf("waf1: expected request body access to be disabled")
 	}
 
-	if !waf2.(wafWrapper).waf.ResponseBodyAccess {
+	if !waf2.(WafWrapper).waf.ResponseBodyAccess {
 		t.Errorf("waf1: expected response body access to be enabled")
 	}
 
@@ -52,11 +52,11 @@ func TestConfigRulesImmutable(t *testing.T) {
 		t.Fatal(err)
 	}
 
-	if !waf1.(wafWrapper).waf.RequestBodyAccess {
+	if !waf1.(WafWrapper).waf.RequestBodyAccess {
 		t.Errorf("waf1: expected request body access to be enabled")
 	}
 
-	if waf1.(wafWrapper).waf.ResponseBodyAccess {
+	if waf1.(WafWrapper).waf.ResponseBodyAccess {
 		t.Errorf("waf1: expected response body access to be disabled")
 	}
 }
