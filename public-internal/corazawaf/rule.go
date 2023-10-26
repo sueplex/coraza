@@ -438,6 +438,10 @@ func (r *Rule) matchVariable(tx *Transaction, m *corazarules.MatchData) {
 	}
 }
 
+func (r *Rule) GetActions() []ruleActionParams {
+	return r.actions
+}
+
 // AddAction adds an action to the rule
 func (r *Rule) AddAction(name string, action plugintypes.Action) error {
 	// TODO add more logic, like one persistent action per rule etc
