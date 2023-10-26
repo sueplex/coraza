@@ -1,7 +1,7 @@
 module github.com/sueplex/coraza/v3/examples/http-server
 
 go 1.18
-i
+
 require (
 	github.com/magefile/mage v1.15.0 // indirect
 	github.com/tidwall/gjson v1.14.4 // indirect
