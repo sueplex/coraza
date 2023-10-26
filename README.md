@@ -3,18 +3,18 @@
   <span>Coraza - Web Application Firewall</span>
 </h1>
 
-[![Regression Tests](https://github.com/corazawaf/coraza/actions/workflows/regression.yml/badge.svg)](https://github.com/corazawaf/coraza/actions/workflows/regression.yml)
+[![Regression Tests](https://github.com/sueplex/coraza/actions/workflows/regression.yml/badge.svg)](https://github.com/corazawaf/coraza/actions/workflows/regression.yml)
 [![Coreruleset Compatibility](https://img.shields.io/badge/Coreruleset%20Compatibility-100%25-brightgreen)](#)
-[![CodeQL](https://github.com/corazawaf/coraza/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/corazawaf/coraza/actions/workflows/codeql-analysis.yml)
-[![codecov](https://codecov.io/gh/corazawaf/coraza/branch/main/graph/badge.svg?token=6570804ZC7)](https://codecov.io/gh/corazawaf/coraza)
+[![CodeQL](https://github.com/sueplex/coraza/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/corazawaf/coraza/actions/workflows/codeql-analysis.yml)
+[![codecov](https://codecov.io/gh/sueplex/coraza/branch/main/graph/badge.svg?token=6570804ZC7)](https://codecov.io/gh/corazawaf/coraza)
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 [![OWASP Lab Project](https://img.shields.io/badge/owasp-lab%20project-brightgreen)](https://owasp.org/www-project-coraza-web-application-firewall)
-[![GoDoc](https://godoc.org/github.com/corazawaf/coraza?status.svg)](https://godoc.org/github.com/corazawaf/coraza/v3)
+[![GoDoc](https://godoc.org/github.com/sueplex/coraza?status.svg)](https://godoc.org/github.com/corazawaf/coraza/v3)
 
 Coraza is an open source, enterprise-grade, high performance Web Application Firewall (WAF) ready to protect your beloved applications. It written in Go, supports ModSecurity SecLang rulesets and is 100% compatible with the OWASP Core Rule Set.
 
 * Website: <https://coraza.io>
-* Forum: [Github Discussions](https://github.com/corazawaf/coraza/discussions)
+* Forum: [Github Discussions](https://github.com/sueplex/coraza/discussions)
 * OWASP Slack Community (#coraza): <https://owasp.org/slack/invite>
 * Rule testing: [Coraza Playground](https://playground.coraza.io)
 * Planning: [Github Projects](https://github.com/orgs/corazawaf/projects?type=beta)
@@ -33,7 +33,7 @@ Key Features:
 
 * ﹡ **Simplicity** - Anyone is able to understand and modify the Coraza source code. It is easy to extend Coraza with new functionality.
 
-* 💬 **Community** - Coraza is a community project, contributions are accepted and all ideas will be considered. Find contributor guidance in the [CONTRIBUTION](https://github.com/corazawaf/coraza/blob/v2/master/CONTRIBUTING.md) document.
+* 💬 **Community** - Coraza is a community project, contributions are accepted and all ideas will be considered. Find contributor guidance in the [CONTRIBUTION](https://github.com/sueplex/coraza/blob/v2/master/CONTRIBUTING.md) document.
 
 <br/>
 
@@ -41,18 +41,18 @@ Key Features:
 
 The Coraza Project maintains implementations and plugins for the following servers:
 
-* [Caddy Reverse Proxy and Webserver Plugin](https://github.com/corazawaf/coraza-caddy) - stable, needs a maintainer
-* [Proxy WASM extension](https://github.com/corazawaf/coraza-proxy-wasm) for proxies with proxy-wasm support (e.g. Envoy) - stable, still under development
-* [HAProxy SPOE Plugin](https://github.com/corazawaf/coraza-spoa) - preview
+* [Caddy Reverse Proxy and Webserver Plugin](https://github.com/sueplex/coraza-caddy) - stable, needs a maintainer
+* [Proxy WASM extension](https://github.com/sueplex/coraza-proxy-wasm) for proxies with proxy-wasm support (e.g. Envoy) - stable, still under development
+* [HAProxy SPOE Plugin](https://github.com/sueplex/coraza-spoa) - preview
 * [Traefik Proxy Plugin](https://github.com/jptosso/coraza-traefik) - preview, needs maintainer
 * [Gin Web Framework Middleware](https://github.com/jptosso/coraza-gin) - preview, needs maintainer
-* [Apache HTTP Server](https://github.com/corazawaf/coraza-server) - experimental
-* [Nginx](https://github.com/corazawaf/coraza-server) - experimental
+* [Apache HTTP Server](https://github.com/sueplex/coraza-server) - experimental
+* [Nginx](https://github.com/sueplex/coraza-server) - experimental
 * [Coraza C Library](https://github.com/corazawaf/libcoraza) - experimental
 
 ## Plugins
 
-* [Coraza GeoIP](https://github.com/corazawaf/coraza-geoip) (preview)
+* [Coraza GeoIP](https://github.com/sueplex/coraza-geoip) (preview)
 
 ## Prerequisites
 
@@ -68,7 +68,7 @@ package main
 
 import (
  "fmt"
- "github.com/corazawaf/coraza/v3"
+ "github.com/sueplex/coraza/v3"
 )
 
 func main() {
@@ -112,11 +112,11 @@ only the phase the rule is defined for.
 [`Http/e2e/`](./http/e2e) provides an utility to run e2e tests.
 It can be used standalone against your own waf deployment:
 ```shell
-go run github.com/corazawaf/coraza/http/e2e@main --proxy-hostport localhost:8080 --httpbin-hostport localhost:8081
+go run github.com/sueplex/coraza/http/e2e@main --proxy-hostport localhost:8080 --httpbin-hostport localhost:8081
 ```
 or as a library by importing:
 ```go
-"github.com/corazawaf/coraza/v3/http/e2e/pkg"
+"github.com/sueplex/coraza/v3/http/e2e/pkg"
 ```
 As a reference for library usage, see [`testing/e2e/e2e_test.go`](.testing/e2e/e2e_test.go).
 Expected directives that have to be loaded and available flags can be found in [`http/e2e/main.go`](./examples/http/e2e/main.go).
@@ -149,7 +149,7 @@ Contributions are welcome! Please refer to [CONTRIBUTING.md](./CONTRIBUTING.md) 
 
 ## Security
 
-To report a security issue, please follow [this link](https://github.com/corazawaf/coraza/security/advisories/new) and add a description of the issue, the steps you took to create the issue, affected versions, and, if known, mitigations for the issue.
+To report a security issue, please follow [this link](https://github.com/sueplex/coraza/security/advisories/new) and add a description of the issue, the steps you took to create the issue, affected versions, and, if known, mitigations for the issue.
 
 Our vulnerability management team will respond within 3 working days of your report. If the issue is confirmed as a vulnerability, we will open a Security Advisory. This project follows a 90 day disclosure timeline.
 
@@ -176,8 +176,8 @@ First and foremost, huge thanks to [Juan Pablo Tosso](https://twitter.com/jptoss
 
 Today we have lots of amazing contributors, we could not have done this without you!
 
-<a href="https://github.com/corazawaf/coraza/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=corazawaf/coraza" />
+<a href="https://github.com/sueplex/coraza/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=sueplex/coraza" />
 </a>
 
 Made with [contrib.rocks](https://contrib.rocks).
