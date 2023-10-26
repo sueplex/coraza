@@ -110,16 +110,16 @@ func NewWAF(config WAFConfig) (WAF, error) {
 	return wafWrapper{waf: waf}, nil
 }
 
-type wafWrapper struct {
+type WafWrapper struct {
 	Waf *corazawaf.WAF
 }
 
 // NewTransaction implements the same method on WAF.
-func (w wafWrapper) NewTransaction() types.Transaction {
+func (w WafWrapper) NewTransaction() types.Transaction {
 	return w.Waf.NewTransaction()
 }
 
 // NewTransactionWithID implements the same method on WAF.
-func (w wafWrapper) NewTransactionWithID(id string) types.Transaction {
+func (w WafWrapper) NewTransactionWithID(id string) types.Transaction {
 	return w.Waf.NewTransactionWithID(id)
 }
